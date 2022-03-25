@@ -20,3 +20,15 @@ House myHouse = new House();
 myHouse.DoorOpenClose();
 }
 
+/*
+ This local function is for my first lab exercise
+*/
+FirstLocalFunctionExample();
+
+void FirstLocalFunctionExample()
+{
+    Console.WriteLine("This is my first sentence");
+    Console.WriteLine("I am new to C Sharp");
+    Console.WriteLine("This C sharp course is cool");
+    Console.WriteLine("I am learning stuff everyday");
+}
