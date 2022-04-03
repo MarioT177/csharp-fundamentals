@@ -33,7 +33,30 @@ void Lesson2Example()
     myLesson2.MyJoinedStrings("CSharp", "Rules");
     Console.WriteLine(myLesson2.MyInterpolationExample("Pizza", 3));
     myLesson2.MyOtherInterpolation();
+    
+
+    
+
 }
+
+ExerciseTwoLab();
+
+void ExerciseTwoLab()
+{
+    
+    
+    
+    Exercise2 myExercise2 = new Exercise2();
+    myExercise2.myEscapeSequence();
+    Console.WriteLine(myExercise2.myEscapeSequence());
+    myExercise2.MyExampleChar1();
+    Console.WriteLine(myExercise2.MyInterpolationProblem("Mario", "300", "Snickers", "Lemonade"));
+
+}
+
+
+
+
 
 void HouseExample()
 {
