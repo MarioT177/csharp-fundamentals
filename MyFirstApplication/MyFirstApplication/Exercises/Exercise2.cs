@@ -11,13 +11,14 @@ internal class Exercise2
          * this method use the following string "exercise two lab"
          */
 
-    // Could not finish problem
+    
  public void ExerciseTwoLab(string value1)
     {
-         Console.WriteLine("Trim()="+value1.Trim());
-         Console.WriteLine("ToLower()="+value1.ToLower());
-         Console.WriteLine("Contains('tow')="+ value1.Contains("|tow|"));
-         Console.WriteLine("IndexOf('c')=" + value1.IndexOf('c'));
+         Console.WriteLine("Trim() "+value1.Trim());
+         Console.WriteLine("ToLower() "+value1.ToLower());
+         Console.WriteLine("Contains() "+ value1.Contains("tow"));
+         Console.WriteLine("Length" + value1.Length);
+         Console.WriteLine("IndexOf() " + value1.IndexOf('c'));
 
     }
     
