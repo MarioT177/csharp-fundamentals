@@ -19,7 +19,30 @@ that member.
 // HouseExample();
 // Lesson1Example();
 // Lesson2Example();
-Lesson3Example();
+// Lesson3Example();
+Lesson4Example();
+
+
+// Lesson 4 Control Flow
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    // myLesson4.BasicIfStatement(12);
+    // myLesson4.BasicIfElseStatement(15);
+    // myLesson4.BasicIfElseChainStatement(5);
+    // myLesson4.BasicAndOrCondition(20, 20);
+    // Console.WriteLine(myLesson4.BasicTernaryExample(25));
+    // myLesson4.BasicSwitchStatement(2);
+    // myLesson4.BasicWhileStatement();
+    // myLesson4.BasicDoStatement();
+    // myLesson4.BasicForStatement();
+    // myLesson4.BasicForeachStatement();
+    myLesson4.BasicJumpStatement();
+
+
+
+}
+
 
 
 

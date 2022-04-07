@@ -111,6 +111,7 @@ internal class Lesson3
         Console.WriteLine(beta);
     }
 
+    
 
     
 } // end class
