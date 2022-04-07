@@ -18,7 +18,55 @@ that member.
 // Lesson Examples
 // HouseExample();
 // Lesson1Example();
-Lesson2Example();
+// Lesson2Example();
+Lesson3Example();
+
+
+
+
+// Lesson 3 Operators and overflow checking
+void Lesson3Example()
+{
+    Lesson3 myLesson3 = new Lesson3();
+    // myLesson3.BasicCheckedOperator(14);
+    // myLesson3.BasicCheckedExample2();
+    //int alpha = 2147483647;
+    //int total = alpha + 10;
+    // Console.WriteLine(total);
+    // -2147483639
+    //myLesson3.BasicUncheckedExample();
+    // myLesson3.BasicMath();
+    // myLesson3.BasicModulus(783);
+    // myLesson3.BasicBooleanLogical(true, false);
+    // myLesson3.BasicCompoundExample(12, 35, 9);
+    // myLesson3.BasicRelationalExample("Tom", "Tim");
+    myLesson3.MyIncrDecrExample();
+}
+
+Exercise3Ex();
+
+void Exercise3Ex()
+{
+    Exercise3 myExercise3 = new Exercise3();
+    myExercise3.ModulusExercise(800);
+    myExercise3.CompoundAssignmentExercise(12, 35);
+    myExercise3.BooleanLogical(true, false);
+    myExercise3.BooleanLogical(false, false);
+    myExercise3.BooleanLogical(true, true);
+    myExercise3.BooleanLogical(false, true);
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 // Lesson 2 Strings
 void Lesson2Example()
