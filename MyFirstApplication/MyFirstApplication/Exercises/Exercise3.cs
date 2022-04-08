@@ -36,13 +36,16 @@ internal class Exercise3
    
      */
 
-    public void MathProblem()
-    {
-        int val1 = 10, val2 = 32, val3 = 12, val4 = 3;
+    /* Output: 138 = 10 + 32*(12/3)
+       Output: 168 = (10+32)*12/3
+       Output: 131 = (10+32*12)/3
+     
+     
+     */
 
-        int total1 = val1 + val2;
 
-    }
+
+
 
     /* Problem 3- Write a method that takes two short type arguements and a void
      return type. Using the Compound Assignment operators below, use 
