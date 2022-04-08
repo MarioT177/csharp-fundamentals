@@ -64,10 +64,19 @@ message, "Not a valid grade"
         return type. Using an iteration statement, display all the numbers divisble
         by 3 from 0 to 30.Utilize a modulus to obtain your results. 
          */
-    // could not complete
-    public void IterationStatement()
-    {
 
+    public void BasicForStatement()
+    {
+        for (int i = 0; i < 30; i++)
+        {
+            while (i % 3 == 0)
+            {
+                if (i % 3 == 0)
+                {
+
+                }
+            }
+        }
     }
 
 
