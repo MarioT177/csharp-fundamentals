@@ -33,29 +33,18 @@ message, "Not a valid grade"
 
  */
 
-    public void SwitchProblem(char A)
+    public string SwitchProblem(char able)
     {
-        switch (A)
+        string result = able switch
         {
-            case 1:
-                Console.WriteLine($"{V} is a not vaid grade");
-                break;
-            case 2:
-                Console.WriteLine($"{E} is not a valid grade");
-                break;
-            case 3:
-                Console.WriteLine($"{G} is not a valid grade");
-                break;
-            case 4:
-                Console.WriteLine($"{F} is not a valid grade");
-                break;
-            default:
-                Console.WriteLine($"{A} is a valid grade");
-
-
-        }
-
-
+            'E' => "Excellent",
+            'V' => "Very Good",
+            'G' => "Good",
+            'A' => "Average",
+            'F' => "Fail",
+             _ => "Not a valid grade",
+        };
+        return result;
 
     }
 
