@@ -25,7 +25,29 @@ that member.
 //Lesson7Example();
 // Lesson9Example();
 // Lesson10Example();
-HouseUpdated();
+// HouseUpdated();
+Lesson11Example();
+
+void Lesson11Example()
+{
+    Square square = new Square();
+    double total = square.CalculateInteriorAngle();
+    Console.WriteLine(total);
+
+    Triangle triangle = new Triangle();
+    double total2 = triangle.CalculateInteriorAngle();
+    Console.WriteLine(total2);
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -65,8 +87,8 @@ void Lesson10Example()
 
     // Calling Auto Property
     // myLesson10.LastName = "Smith"; // only works in Lesson10 Constructor
-    Console.WriteLine(myLesson10.Id); // defualt value
-    myLesson10.Id = 1500;
+    //Console.WriteLine(myLesson10.Id); // defualt value
+    //myLesson10.Id = 1500;
     Console.WriteLine(myLesson10.Id); // get 1500
 
     // Expression Body Property
