@@ -65,10 +65,23 @@ as Expression Body Definition Properties.
         BoatType = boatType;
         BoatLength = boatLength;    
     }
-public void BoatMake()
+
+/* lesson 12 - Problem 3 In your boat class, add the virtual keyword
+ to your method created in Lesson 10. Create a second version of the same
+method and add a parameter. Include a Console Writeline method in the new
+that uses the parameter. This parameter needs to be based on one of your
+properties */
+
+public virtual void BoatMake()
     {
         Console.WriteLine($"The {BoatType} is a tug boat");
     }
+
+    public void BoatDuty()
+    {
+        Console.WriteLine($"Different size boats are used for different jobs, {boatLength} are used to transport goods");
+    }
+
 
 }
 

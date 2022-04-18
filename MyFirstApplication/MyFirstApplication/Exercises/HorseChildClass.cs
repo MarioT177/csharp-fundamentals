@@ -55,7 +55,20 @@ internal class Pony : Horse
     }
 
 
-
-
-
 }// end class
+
+/*
+ Lesson 12 Problem 2 - In your child class of Horse, using the override keyword create
+a method that has the same name as the virtual method from Horse. Add a Console 
+writeline statement that provides a different message from the Horse.
+  */ 
+internal class Ponys : Horse
+{
+    public override void HorseSpecies()
+    {
+        Console.WriteLine("A pony is a species similar to a horse");
+    }
+
+
+
+}

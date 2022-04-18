@@ -44,11 +44,23 @@ internal class Horse
         HorseWieght = horseWeight;
 
     }
-
-    public void HorseSpecies()
+/*
+Lesson 12 - Problem1 -  In your Horse class, add the virtual keyword to your method created in Lesson 10.Create
+a second version of the same method and add a parameter. Include a Console Writeline method
+and add a parameter. Include a Console Writeline method in the new method that uses the parameter
+This parameter needs to be based on one of your propertes. 
+ 
+ */
+    public virtual void HorseSpecies()
     {
         Console.WriteLine($"My horse is a {HorseType}");
     }
-
+   
+    public void HorseSpeciesColor()
+    {
+        Console.WriteLine($"I have a black {HorseColor} mustang");
+    }
 
 }
+
+

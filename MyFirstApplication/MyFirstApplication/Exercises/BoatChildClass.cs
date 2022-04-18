@@ -32,3 +32,16 @@ public void ChildBoatType()
 }
 
 }
+
+/* Lesson 12 problem 4 - In your child class of Boat, using the 
+ override keyword create a method that has the same name as the 
+virtual method from Boat.Add a Console WriteLine that provides
+a different message from Boat.
+ */
+internal class RowBoatt : Boat
+{
+    public override void BoatMake()
+    {
+        Console.WriteLine($"Different boat makes are used for different jobs");
+    }
+}
