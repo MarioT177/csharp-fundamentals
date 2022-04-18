@@ -19,28 +19,34 @@ Also include in your class, your method for your child class
  
  
  */
-public class Pony
+internal class Pony : Horse
 {
-    protected string PonySize { get; set; }
+    private string  _ponySize { get; set; }
 
-    public Pony()
-        : this("Small", "Brown")
+    public string PonySize
+    {
+        get { return _ponySize; }
+        set { _ponySize = value; }
+    }
+
+    public Pony(string ponySize)
+        :this("compact", "light", ponySize)
     { }
 
 
 
-    public Pony(string horseColor, string tailLength, string PonySize)
+    public Pony(string horseColor, string tailLength, string ponySize)
         : this(horseColor, tailLength, "Mustang", 20, "Small")
     { }
 
 
 
 
-    public Pony(string horseColor, string tailLength, string horseType, string ponySize)
+    public Pony(string horseColor, string tailLength, string horseType, int horseWeight, string ponySize)
 
-         :base(horseColor, tailLength, horseType, ponySize)
+         :base(horseColor, tailLength, horseType, horseWeight)
     { 
-          PonySize = ponySize;
+          _ponySize = ponySize;
     }
 
     public void PonySpecies()

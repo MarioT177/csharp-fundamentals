@@ -1,33 +1,34 @@
 ﻿namespace MyFirstApplication;
 
-public class ChildBoat
+internal class RowBoat: Boat
 {
-    private string _rowBoat;
+    private string _rowboatSize;
 
 
-    public string RowBoat
+    public string RowBoatSize
     {
-        get => _rowBoat;
-        set => _rowBoat = value;
+        get => _rowboatSize;
+        set => _rowboatSize = value;
     }
 
 
-    public ChildBoat()
-       : this("Small", " Fast")
+    public RowBoat(string rowBoat)
+       : this("Small", " Fast", rowBoat)
     { }
 
-    public ChildBoat(string anchorSize, string boatType, string rowBoat)
-        : this(anchorSize, boatType, "Tug boat", "Small")
+    public RowBoat(string anchorSize, string boatColor, string rowBoat)
+        : this(anchorSize, boatColor, "Large",20, rowBoat)
     { }
 
-    public ChildBoat(string anchorSize, string boatColor, string boatType, string rowBoat )
-    
-        :base (anchorSize, boatColor, boatType, rowBoat);
-    { }
+    public RowBoat(string anchorSize, string boatColor, string boatType, int boatLength, string rowboatSize )
+        :base (anchorSize, boatColor, boatType, boatLength)
+      { 
+        _rowboatSize = rowboatSize;
+      }
 
 public void ChildBoatType()
 {
-    Console.WriteLine($"A  is a {rowBoat} version of a Boat");
+    Console.WriteLine($"A  is a {_rowboatSize} version of a Boat");
 }
 
 }
