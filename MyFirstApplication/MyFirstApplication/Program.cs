@@ -26,7 +26,39 @@ that member.
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
-Lesson11Example();
+// Lesson11Example();
+// Lesson12Example();
+CondoExample();
+{
+   Condo myCondo = new Condo();
+    myCondo.Maintenence();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+
+
+
+void CondoExample()
+{
+
+}
+
+
+
+
+void Lesson12Example()
+{
+     Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+    myFruit = new Fruit();
+
+    Apple myApple = new Apple();
+    myApple.EatFruit();
+
+
+}
+
+
 
 void Lesson11Example()
 {
