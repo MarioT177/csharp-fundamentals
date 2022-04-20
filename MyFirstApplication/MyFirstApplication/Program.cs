@@ -31,7 +31,35 @@ that member.
 // CondoExample();
 // Lesson13Example();
 
-Lesson14Example();
+// Lesson14Example();
+// Lesson15Example();
+Lesson16Example();
+
+
+void Lesson16Example()
+{
+    Lesson16 myLesson16 = new Lesson16();
+    myLesson16.MyListExample();
+    myLesson16.myDictionaryExample();
+
+
+}
+
+void Lesson15Example()
+{
+    Lesson15 myLesson15 = new Lesson15();
+    // myLesson15.EnumExample();
+    string flavor = myLesson15.FavoriteIceCream(IceCreamFlavors.Choclate);
+    // Console.WriteLine(flavor); 
+    myLesson15.TupleExample();
+
+    (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
+    Console.WriteLine($"Answers are {val1}, {val2}, {val3}");
+
+
+}
+
+
 
 void Lesson14Example()
 {
