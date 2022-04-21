@@ -5,7 +5,7 @@
  */
 
 
-internal class Lesson10
+public class Lesson10
 {
     private string _firstName;
     private string _address;
@@ -18,7 +18,6 @@ internal class Lesson10
     }
 
     // auto-implemented property with init keyword
-
     public string LastName { get; init; }
     // auto-implemented property with a default value
     public int Id { get; init; } = 1000;
