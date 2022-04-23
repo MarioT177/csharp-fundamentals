@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MyFirstApplication;
 
 
-// Lesson 17 - Unit Testing 
+// Lesson 17 - Unit Testing & Exercise 18
 
 namespace MyFirstTestProject
 {
